@@ -1,0 +1,16 @@
+int main()
+{
+  int secs = 0;
+  int mins = 0;
+  int hrs = 0;
+  printf("Enter number of seconds:");
+  scanf("%d", &secs);
+  hrs=secs/3600;
+  secs=secs-(hrs*3600);
+  mins=secs/60;
+  secs=secs-(mins*60);
+  printf("Time in minutes,seconds: %d:%d\n", mins, secs);
+  
+  return 0;
+
+}
