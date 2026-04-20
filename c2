@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+	
+    char s[100];
+    scanf("%[Welcome to C programming.^\n]%*c", &s);
+  	
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
+    printf("%s%s","Hello, World!\n",s);   
+    return 0;
+}
